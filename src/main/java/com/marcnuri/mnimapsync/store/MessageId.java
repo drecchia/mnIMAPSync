@@ -14,8 +14,6 @@
  */
 package com.marcnuri.mnimapsync.store;
 
-import com.sun.mail.imap.IMAPFolder;
-import com.sun.mail.imap.IMAPMessage;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,8 +21,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import javax.mail.FetchProfile;
 import javax.mail.MessagingException;
+
+import com.sun.mail.imap.IMAPFolder;
+import com.sun.mail.imap.IMAPMessage;
 
 /**
  * Class to create a reusable message ID for identification in maps and comparisons of source/target
